@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Order Service Assertions Test Suite" verbose="2" thread-count="1">
+<suite name="Order Service Test Suite" verbose="2" thread-count="1">
     <test name="Order Service Assertions Tests">
         <classes>
             <class name="com.order.order.assertions.OrderServiceAssertionsTest" />
+        </classes>
+    </test>
+    <test name="Order Service Test Reporting Tests">
+        <classes>
+            <class name="com.order.order.test_reporting.OrderServiceTestReportingTest" />
+        </classes>
+    </test>
+    <test name="Order Service Mocking and Stubbing Tests">
+        <classes>
+            <class name="com.order.order.mocking_and_stubbing.OrderServiceMockingTest" />
         </classes>
     </test>
 </suite>

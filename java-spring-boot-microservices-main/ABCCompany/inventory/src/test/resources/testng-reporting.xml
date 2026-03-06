@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Inventory Service Test Suite" verbose="2" thread-count="1">
-    <test name="Inventory Service Assertions Tests">
-        <classes>
-            <class name="com.inventory.inventory.assertions.InventoryServiceAssertionsTest" />
-        </classes>
-    </test>
+<suite name="Inventory Service Test Reporting Suite" verbose="2" thread-count="1">
     <test name="Inventory Service Test Reporting Tests">
+        <groups>
+            <run>
+                <include name="test_reporting"/>
+            </run>
+        </groups>
         <classes>
             <class name="com.inventory.inventory.test_reporting.InventoryServiceTestReportingTest" />
         </classes>

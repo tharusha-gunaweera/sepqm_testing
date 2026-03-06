@@ -67,6 +67,20 @@
             <scope>test</scope>
         </dependency>
 
+        <!-- Mockito for Mocking and Stubbing -->
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-core</artifactId>
+            <version>5.2.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-inline</artifactId>
+            <version>5.2.0</version>
+            <scope>test</scope>
+        </dependency>
+
         <dependency>
             <groupId>org.abccompany</groupId>
             <artifactId>inventory</artifactId>
