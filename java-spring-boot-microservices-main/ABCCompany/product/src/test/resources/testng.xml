@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Product Service Fixtures Test Suite" verbose="2" thread-count="1">
+    <test name="Product Service Fixtures Tests">
+        <classes>
+            <class name="com.product.product.fixtures.ProductServiceFixturesTest" />
+        </classes>
+    </test>
+</suite>
+

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="API Gateway Fixtures Test Suite" verbose="2">
+
+    <test name="Fixtures and Setup/Teardown Tests">
+        <classes>
+            <class name="com.apigateway.apigateway.fixtures.ApiGatewayServiceFixturesTest">
+                <methods>
+                    <include name="testServiceRegistration" />
+                    <include name="testMultipleServiceRegistration" />
+                    <include name="testRequestRouting" />
+                    <include name="testTimeoutHandling" />
+                    <include name="testLoadBalancing" />
+                    <include name="testCircuitBreakerPattern" />
+                    <include name="testContextManagement" />
+                    <include name="testServiceHealthCheck" />
+                    <include name="testConnectionPoolManagement" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
+
